@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+header .container-header {
+  height: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+header .container-header .logo {
+  flex-grow: 2;
+  display: flex;
+  align-items: flex-end;
+}
+
+header .container-header .logo img,
+header .container-header .logo h3 {
+  padding: 2px;
+}
+
+header .container-header ul li {
+  list-style-type: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+header .container-header ul li a {
+  text-decoration: none;
+  color: #58482b;
+}
+
+header .container-header button {
+  font-size: 1rem;
+  padding: 5px;
+  border: 0.5px #581ca5 solid;
+  color: #581ca5;
+  background-color: #fff;
+}
+
+header hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jumbotron {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #58482b;
+  background-image: url(/images/illustration-main.jpg?e9376b5809ee1652cf39fb81631a1ca5);
+}
+
+.jumbotron h1 {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.jumbotron .btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.jumbotron .btn button {
+  color: #fff;
+  background-color: #581ca5;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+.jumbotron .btn p {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.jumbotron p {
+  margin-top: 10px;
+}
+

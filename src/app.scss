@@ -1,0 +1,85 @@
+$text-color: #58482b;
+$button-color: #581ca5;
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-size:15px;
+}
+
+header{
+  .container-header{
+    height:40px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    .logo{
+      flex-grow:2;
+      display: flex;
+      align-items:flex-end;
+      img,h3{
+        padding:2px;
+      }
+    }
+    ul{
+      li{
+        list-style-type: none;
+        padding:10px;
+        display: inline-block;
+        a{
+          text-decoration: none;
+          color:$text-color;
+        }
+      }
+    }
+    button{
+      font-size:1rem;
+      padding:5px;
+      border: 0.5px $button-color solid;
+      color: $button-color;
+      background-color:#fff;
+    }
+  }
+  hr{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.jumbotron{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  color:$text-color;
+  background-image: url(../img/illustration-main.jpg);
+
+  h1{
+    font-size: 2rem;
+    margin-top:50px;
+  }
+  .btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:30px;
+    button{
+      color:#fff;
+      background-color:$button-color;
+      padding:5px;
+      font-size:0.8rem;
+    }
+    p{
+      width:auto;
+      padding-left:20px;
+      padding-right:20px;}
+  }
+  p{
+    margin-top:10px;
+  }
+
+
+  }
