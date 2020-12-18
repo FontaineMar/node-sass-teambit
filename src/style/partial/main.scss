@@ -1,0 +1,34 @@
+@import 'variables';
+.jumbotron{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  color:$text-color;
+  background-image: url('img/alex.png');
+
+  h1{
+    font-size: 2rem;
+    margin-top:50px;
+  }
+  .btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:30px;
+    button{
+      color:#fff;
+      background-color:$button-color;
+      padding:5px;
+      font-size:0.8rem;
+    }
+    p{
+      width:auto;
+      padding-left:20px;
+      padding-right:20px;}
+  }
+  p{
+    margin-top:10px;
+  }
+
+
+  }
