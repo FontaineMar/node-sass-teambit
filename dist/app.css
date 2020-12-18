@@ -6,36 +6,33 @@
 }
 
 header .container-header {
-  height: 40px;
+  height: 50px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   align-items: center;
 }
-
 header .container-header .logo {
   flex-grow: 2;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  height: 50px;
+  width: 100px;
 }
-
-header .container-header .logo img,
-header .container-header .logo h3 {
-  padding: 2px;
+header .container-header .logo img {
+  height: 45px;
+  width: 150px;
 }
-
 header .container-header ul li {
   list-style-type: none;
   padding: 10px;
   display: inline-block;
 }
-
 header .container-header ul li a {
   text-decoration: none;
-  color: #58482b;
+  color: #7f14da;
 }
-
 header .container-header button {
   font-size: 1rem;
   padding: 5px;
@@ -43,7 +40,6 @@ header .container-header button {
   color: #581ca5;
   background-color: #fff;
 }
-
 header hr {
   width: 80%;
   margin-left: auto;
@@ -54,35 +50,192 @@ header hr {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  color: #58482b;
+  color: #7f14da;
+  background-image: url("img/illustration-main.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 700px;
+  height: 400px;
 }
-
 .jumbotron h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 50px;
 }
-
 .jumbotron .btn {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-top: 30px;
 }
-
 .jumbotron .btn button {
   color: #fff;
   background-color: #581ca5;
   padding: 5px;
   font-size: 0.8rem;
 }
-
 .jumbotron .btn p {
   width: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .jumbotron p {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
+.bkg-style-groupCards {
+  background-color: #0414b3;
+  color: #7f14da;
+}
+.bkg-style-groupCards .groupCards {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0414b3;
+}
+.bkg-style-groupCards .groupCards h2 {
+  font-size: 2rem;
+  margin-top: 50px;
+  text-align: center;
+}
+.bkg-style-groupCards .groupCards h2:last-child {
+  margin-bottom: 50px;
+}
+.bkg-style-groupCards .groupCards img {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.bkg-style-groupCards .groupCards hr {
+  background-color: #7f14da;
+  width: 100%;
+}
+.bkg-style-groupCards .groupCards .cards {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 50px;
+}
+.bkg-style-groupCards .groupCards .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bkg-style-groupCards .groupCards .cards .card img {
+  width: 150px;
+  height: 150px;
+}
+
+.bkg-style-result {
+  color: #7f14da;
+}
+.bkg-style-result .results {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.bkg-style-result .results img {
+  width: 50%;
+  height: 400px;
+}
+.bkg-style-result .results .result {
+  display: flex;
+  flex-direction: column;
+}
+.bkg-style-result .results .result img {
+  height: 250px;
+  width: 350px;
+  margin-top: 20px;
+}
+.bkg-style-result .results .result h2 {
+  font-size: 2rem;
+}
+.bkg-style-result .results .result p {
+  margin-top: 50px;
+}
+.bkg-style-result .results .result a {
+  text-decoration: none;
+  margin-top: 20px;
+}
+.bkg-style-result .left {
+  width: 70%;
+  margin-right: 30%;
+}
+.bkg-style-result .right {
+  width: 70%;
+  margin-left: 30%;
+}
+
+.bkg-style-signUp {
+  background-color: #0414b3;
+  color: #7f14da;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bkg-style-signUp h1 {
+  font-size: 3rem;
+  margin-top: 50px;
+}
+.bkg-style-signUp .signUp {
+  border: 1px solid #7f14da;
+  margin-top: 70px;
+  background-color: #fff;
+}
+.bkg-style-signUp .signUp p {
+  margin: 15px;
+}
+.bkg-style-signUp .signUp .author {
+  display: flex;
+  align-items: center;
+}
+.bkg-style-signUp .signUp .author img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.bkg-style-signUp .btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+.bkg-style-signUp .btn button {
+  color: #fff;
+  background-color: #581ca5;
+  padding: 5px;
+  font-size: 0.8rem;
+  margin: 15px;
+}
+
+footer {
+  color: #7f14da;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+footer .foot {
+  margin-top: 60px;
+}
+footer .foot img {
+  width: 250px;
+  height: 80px;
+  margin: 5px;
+}
+footer .foot h3 {
+  font-size: 1.5rem;
+}
+footer .foot ul {
+  margin-top: 40px;
+}
+footer .foot ul li {
+  list-style-type: none;
+  margin-top: 15px;
+}
