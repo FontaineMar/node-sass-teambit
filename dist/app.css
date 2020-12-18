@@ -56,6 +56,7 @@ header hr {
   background-repeat: no-repeat;
   background-size: 700px;
   height: 400px;
+  margin-bottom: 50px;
 }
 .jumbotron h1 {
   font-size: 2.5rem;
@@ -83,7 +84,7 @@ header hr {
 }
 
 .bkg-style-groupCards {
-  background-color: #0414b3;
+  background-color: #3e14e9;
   color: #7f14da;
 }
 .bkg-style-groupCards .groupCards {
@@ -93,7 +94,7 @@ header hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #0414b3;
+  background-color: #3e14e9;
 }
 .bkg-style-groupCards .groupCards h2 {
   font-size: 2rem;
@@ -170,7 +171,7 @@ header hr {
 }
 
 .bkg-style-signUp {
-  background-color: #0414b3;
+  background-color: #3e14e9;
   color: #7f14da;
   display: flex;
   flex-direction: column;
